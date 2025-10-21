@@ -1,0 +1,28 @@
+
+.grid-recipes {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#recipe {
+    position: relative;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* height: 250px; */
+    /* border: 1px solid #000; */
+}
+
+#recipe img {
+    height: 200px;
+    background-size: 100% 100%;
+}
+
+#recipe h2 {
+    font-size: 16px;
+}
+
+/* #recipe .article-recipe-footer {
+    padding: 10px;
+    margin-top: 10px;
+} */
