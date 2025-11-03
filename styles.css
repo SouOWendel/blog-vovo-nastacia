@@ -1,0 +1,314 @@
+
+body {
+    background-repeat: repeat;
+    background-size: 50%;
+    background-image: url(./assets/quadriculado.jpg);
+}
+
+.vovo-layout {
+    position: relative;
+    max-width: 1000px !important;
+    margin-top: 200px;
+}
+
+main.vovo-main {
+    width: 100%;
+    border-radius: 24px;
+    border: 2px solid #FDA036;
+    background: #FFF98C;
+}
+
+section.vovo-content {
+    border: 2px solid #FDA036;
+    background: #FFFDD3;
+    border-radius: 24px;
+}
+
+.vovo-title {
+    font-family: 'The Nautigal', 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #FDA036;
+}
+
+.vovo-content p,
+.vovo-content li {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #FDA036;
+}
+
+h2.vovo-title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: -2px 2px 0px white;
+}
+
+h3.vovo-title {
+    font-size: 3rem;
+}
+
+section.vovo-content .vovo-sub-content {
+    position: relative;
+    border: 2px solid #FDA036;
+    background: #FFF;
+    border-radius: 24px;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    top: -130px;
+    left: 10%;
+}
+
+header .square-header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 100%;
+    border: 4px solid #FDA036;
+    background-color: #FFF98C;
+}
+
+header .header-image {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 4px solid #FDA036;
+    background-position: 70% 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header .vovo-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    gap: 10px;
+}
+
+header .vovo-menu a {
+    font-family: 'The Nautigal', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #AD7638;
+    border-radius: 12px;
+    border: 2px solid #FDA036;
+    background: #FFF98C;
+    padding: 0px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.vovo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.vovo-grid .vovo-title {
+    font-size: 2.8rem;
+}
+
+.vovo-content input {
+    border-radius: 24px;
+    border: 2px solid #FDA036;
+    padding: 0 10px;
+}
+
+.vovo-pesquisa,
+.vovo-pesquisa::placeholder {
+    color: #AD7638;
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #FDA036;
+}
+
+.vovo-img {
+    position: relative;
+    width: 100%;
+    border-radius: 24px;
+    border: 2px solid #FDA036;
+}
+
+.vovo-img-post {
+    position: absolute;
+    top: -28px;
+    left: -28px;
+    width: 300px;
+    border-radius: 24px;
+    border: 2px solid #FDA036;
+}
+
+/* home.html */
+
+.vovo-grid article.popular img {
+    height: 100%;
+    max-height: 200px;
+}
+
+/* dicas.html & receitas.html */
+
+.vovo-grid article.vovo-tips,
+.vovo-grid article.vovo-recipes,
+.vovo-grid article.vovo-veja-mais-art {
+    display: flex;
+    gap: 10px;
+}
+
+.vovo-grid article.vovo-tips img,
+.vovo-grid article.vovo-recipes img,
+.vovo-grid article.vovo-veja-mais-art img {
+    width: 140px;
+    height: 100px;
+    border: none;
+}
+
+.vovo-grid article.vovo-tips .vovo-title,
+.vovo-grid article.vovo-recipes .vovo-title,
+.vovo-grid article.vovo-veja-mais-art .vovo-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'The Nautigal', 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.vovo-grid article.vovo-tips p,
+.vovo-grid article.vovo-recipes p,
+.vovo-grid article.vovo-veja-mais-art p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.vovo-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vovo-table {
+	border-collapse: collapse;
+	width: 80%;
+	max-width: 700px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px; 
+	overflow: hidden; 
+}
+
+.vovo-table th, .vovo-table td {
+	border: 1px solid #e0e0e0;
+	padding: 12px;
+	text-align: center;
+	color: #AD7638;
+}
+
+.vovo-table th {
+	background-color: #ffb861; 
+	color: white;
+	font-weight: bold;
+	border-top: none;
+	border-bottom: 2px solid #e0e0e0;
+}
+
+.vovo-table tr:first-child th:first-child {
+		border-top-left-radius: 10px;
+}
+.vovo-table tr:first-child th:last-child {
+		border-top-right-radius: 10px;
+}
+
+.vovo-table tr:last-child td:first-child {
+		border-bottom-left-radius: 10px;
+}
+.vovo-table tr:last-child td:last-child {
+		border-bottom-right-radius: 10px;
+}
+
+/* Cores das células (corpo da tabela) */
+.vovo-table tr:nth-child(even) {
+		background-color: #ffe0b2; 
+}
+
+.vovo-table tr:nth-child(odd) {
+		background-color: #ffecb3; 
+}
+
+/* Estilo específico para a coluna "Ingrediente" */
+.vovo-table td:first-child {
+		font-weight: 600;
+		text-align: left;
+		background-color: #ffc977;
+}
+
+/* Estilo para a célula 'Sal' na coluna '1 xícara' */
+.vovo-table tr:last-child td:nth-child(2) {
+		font-style: italic;
+		color: #777;
+}
+
+/* ------------------------------ */
+
+.vovo-forms input[type='text'],
+.vovo-forms textarea,
+.vovo-forms select,
+.vovo-forms .label-input {
+    border-radius: 24px;
+    border: 2px solid #FDA036;
+    padding: 2px 8px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #FDA036;
+}
+
+.vovo-forms textarea {
+    min-height: 150px;
+}
+
+.vovo-forms .vovo-resource {
+    display: flex;
+    flex-direction: column;
+}
+
+.vovo-forms .vovo-resource label,
+.vovo-forms .submitRecipe,
+.vovo-forms .fileRecipe {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #AD7638;
+    font-weight: bold;
+}
+
+.vovo-forms .submitRecipe {
+    width: 100px;
+    background: #FFF98C;
+}
+
+.vovo-forms .fileRecipe input[type='file'] {
+    display: none;
+}
+
+.vovo-forms .label-input {
+    background: #FFF98C;
+}
+
+.vovo-forms .vovo-submit-img {
+    position: absolute;
+    top: 100px;
+    right: -50px;
+    width: 330px;
+}
+
+/* Receitas-X.html */
+
+.veja-mais {
+    background: #FFF98C;
+    border-radius: 24px;
+    border: 2px solid #FDA036;
+}
+
+.vovo-main  h2.vovo-title:first-child {
+	padding-left: 200px;
+}
+
+.vovo-logo {
+	text-align: center;
+	padding-left: 200px;
+}
